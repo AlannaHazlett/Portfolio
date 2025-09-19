@@ -4,16 +4,17 @@
 * Linear regression for logarithmic transformation of price with feature selection
 * Logistic regression to determine if the house has been renovated
 
+<p align="center">
 <img src="https://github.com/AlannaHazlett/Portfolio/blob/main/Images/Age_Renovated.png" width="300"/>
-
+</p>
   
 ## [Project 2: Haiti Earthquake Disaster - Image Classification of Blue Tarps](https://github.com/AlannaHazlett/DS6030/blob/main/Project/Project2_Group4.Rmd)
 * Tidymodels with model tuning and cross-validation for imbalanced data set
 
 
-<img src="https://github.com/AlannaHazlett/Portfolio/blob/main/Images/orthovnir071_makeshift_villiage1.jpg" width="400"/>
-<img src="https://github.com/AlannaHazlett/Portfolio/blob/main/Images/ClassDistributions.png"/>
-<img src="https://github.com/AlannaHazlett/Portfolio/blob/main/Images/ROCCurve2.png"/>
+<img src="/Images/orthovnir071_makeshift_villiage1.jpg" width="400"/>
+<img src="/Images/ClassDistributions.png"/>
+<img src="/Images/ROCCurve2.png"/>
 
 
 ## Project 3: Chest Disease Classification with Explainability
