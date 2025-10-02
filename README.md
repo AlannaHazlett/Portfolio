@@ -53,15 +53,24 @@ I hold a Master's degree in Data Science and a Bachelor's degree in Biology, and
 **The most abundant category, Vegetation, averages lower pixel values than all other categories. Soil, Rooftop, and Various Non-Tarp all have higher values of Red and Green pixels, and Blue has the smallest average for all three. The blue has the highest value for the Blue Tarp category.**
 
 * Utilized R and Tidymodels with model tuning and cross-validation for imbalanced data set to create models.
+
 * Created a variety of models and assessed their effectiveness with the data.
-       * Logistic Regression
-       * Linear Discrimination Analysis
-       * Quadratic Discrimination Analysis
-       * K Nearest Neighbors
-       * Random Forest
-       * Linear Support Vector Machine
-       * Polynomial Support Vector Machine
-       * Radial Basis Support Vector Machine
+  
+  * Logistic Regression
+  
+  * Linear Discrimination Analysis
+  
+  * Quadratic Discrimination Analysis
+  
+  * K Nearest Neighbors
+  
+  * Random Forest
+  
+  * Linear Support Vector Machine
+  
+  * Polynomial Support Vector Machine
+  
+  * Radial Basis Support Vector Machine
   
 ![](/Images/ROCCurve1.png)
 ![](/Images/ROCCurve2.png)
