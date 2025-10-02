@@ -1,12 +1,28 @@
-<div style="display:flex; justify-content:center; align-items:center; padding:40px;">
-  <img src="./Images/2025-Hazlett-Alanna-uwa6xv-v3.JPG" 
-       width="150" 
-       style="border-radius:50%; border:4px solid #ffffff; 
-              box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-</div>
+<div style="display:flex; align-items:flex-start; gap:20px; margin-bottom:30px;">
+  
+  <!-- Left column: headshot -->
+  <div style="flex-shrink:0;">
+    <img src="./Images/2025-Hazlett-Alanna-uwa6xv-v3.JPG" 
+         width="150" 
+         style="border-radius:50%; border:4px solid #ffffff; 
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+  </div>
 
-## About Me:
-I hold a Master's degree in Data Science and a Bachelor's degree in Biology, and I am currently working in Neuroscience research. With my combined background in data science and biology, I strive to drive impactful research and contribute to advancements in healthcare and biotechnology. Data science is transforming the way we analyze complex biological systems, and I apply my expertise to extract meaningful insights that lead to real-world solutions. By leveraging data, I aim to make informed, evidence-based contributions that improve societal health outcomes.
+  <!-- Right column: About Me -->
+  <div style="max-width:600px;">
+    <h2>About Me:</h2>
+    <p>
+      I hold a Master's degree in Data Science and a Bachelor's degree in Biology, 
+      and I am currently working in Neuroscience research. With my combined background 
+      in data science and biology, I strive to drive impactful research and contribute 
+      to advancements in healthcare and biotechnology. Data science is transforming 
+      the way we analyze complex biological systems, and I apply my expertise to 
+      extract meaningful insights that lead to real-world solutions. By leveraging data, 
+      I aim to make informed, evidence-based contributions that improve societal health outcomes.
+    </p>
+  </div>
+
+</div>
 
 ## [Project 1: Real Estate - House Prices, Renovation](https://github.com/AlannaHazlett/STAT6021/tree/main/Project%202)
 ### Linear regression for logarithmic transformation of price with feature selection
