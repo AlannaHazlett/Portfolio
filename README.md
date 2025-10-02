@@ -1,7 +1,8 @@
-<div style="background-color:#f0f0f0; padding:40px; display:flex; justify-content:center; align-items:center;">
-<img src="./Images/2025-Hazlett-Alanna-uwa6xv-v3.JPG" 
-     width="160" 
-     style="border-radius:50%; border:4px solid #ffffff;">
+<div style="display:flex; justify-content:center; align-items:center; padding:40px;">
+  <img src="./Images/2025-Hazlett-Alanna-uwa6xv-v3.JPG" 
+       width="150" 
+       style="border-radius:50%; border:4px solid #ffffff; 
+              box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
 </div>
 
 ## About Me:
