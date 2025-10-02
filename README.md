@@ -1,3 +1,8 @@
+---
+title: "Alanna Hazlett"
+---
+
+
 ## About Me:
 I hold a Master's degree in Data Science and a Bachelor's degree in Biology, and I am currently working in Neuroscience research. With my combined background in data science and biology, I strive to drive impactful research and contribute to advancements in healthcare and biotechnology. Data science is transforming the way we analyze complex biological systems, and I apply my expertise to extract meaningful insights that lead to real-world solutions. By leveraging data, I aim to make informed, evidence-based contributions that improve societal health outcomes.
 
