@@ -131,18 +131,20 @@ Based on the combined results from the cross-validation metrics and the holdout 
 For all of the models, normal and pneumonia were notably difficult to classify. A possible solution to this problem would be to combine the classifcation result with the patient's reported sympotoms, as pneumonia patients and normal patients will often have different syptoms. The combination of the X-ray and symptoms will help support a better classification result. 
 
 <div style="display:flex; gap:20px; align-items:center; margin-bottom:40px;">
-  <div style="flex:2;">
+  <div style="flex:3;">
     
 <p align="center">  
 <img src="./Images/VGG16_First_Tuberculosis.png" width="400">
 </p>
 
 *The image above shows the Grad-CAM result from a Tuberculosis X-ray. This result is from the VGG16 model that was created and does a good job displaying a heatmap over the X-ray image to indicate areas in the lungs that lead to the model's decision. The model correctly classified this X-ray as Tuberculosis.*
+
   </div>
   
   <div style="flex:1;">
 For the tuberculosis X-ray:
-  
+
+ 
 Data were obtained from the TB Portals (https://tbportals.niaid.nih.gov), which is an
 open-access TB data resource supported by the National Institute of Allergy and
 Infectious Diseases (NIAID) Office of Cyber Infrastructure and Computational Biology
