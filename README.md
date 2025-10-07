@@ -3,7 +3,7 @@
   <!-- Left column: headshot -->
   <div style="flex-shrink:0;">
     <img src="./Images/2025-Hazlett-Alanna-uwa6xv-v3.JPG" 
-         width="150" 
+         width="170" 
          style="border-radius:50%; border:4px solid #ffffff; 
                 box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
   </div>
@@ -71,7 +71,7 @@
 * Performed exploratory data analysis.
 
 ![](/Images/ClassDistributions.png)
-**The most abundant category, Vegetation, averages lower pixel values than all other categories. Soil, Rooftop, and Various Non-Tarp all have higher values of Red and Green pixels, and Blue has the smallest average for all three. The blue has the highest value for the Blue Tarp category.**
+*The most abundant category, Vegetation, averages lower pixel values than all other categories. Soil, Rooftop, and Various Non-Tarp all have higher values of Red and Green pixels, and Blue has the smallest average for all three. The blue has the highest value for the Blue Tarp category.*
 
 * Utilized R and Tidymodels with model tuning and cross-validation for imbalanced data set to create models.
 
@@ -100,8 +100,61 @@
 
 Based on the combined results from the cross-validation metrics and the holdout performance of all nine models, it was determined that Random Forest model was the best model to select for the prediction of blue tarp pixels. This conclusion arises not only from the fact that Random Forest is one of the top-performing models on the holdout data set metrics but also from its similarity in presenting solid results during the cross-validation process. The Random Forest model has a high degree of correctly predicting those places where help is needed. It has a high true positive rate/sensitivity of 0.9626, and I]it also significantly decreases the number of false positives, falsely identified blue tarps, which reduces the waste of resources. 
 
-## Project 3: Chest Disease Classification with Explainability
-* Transfer Learning of CNN models with Grad-CAM explainability feature
+## [Project 3: Chest Disease Classification with Explainability](https://arxiv.org/pdf/2505.22609)
+* To what extent can one improve the interpretability of highly accurate, high performing, and generalizable Convolutional Neural Networks (CNNs) for the purposes of identifying chest diseases in X-ray Images? Providing visual explanations for classification decisions can help improve trust and transparency in clinical applications of deep learning models.
+  
+*  Utilized TensorFlow to perform Transfer Learning of CNN models with Gradient-weighted Class Activation Mapping (Grad-CAM) explainability feature.
+   We applied Gradient-weighted
+
+*  Researched several CNN models to utilize for transfer learning.
+    
+    * ResNet50
+    
+    * VGG16
+    
+    * Xception
+    
+    * EfficientNetV2B0
+    
+*  Performed hyperparameter tuning.
+  
+*  Conducted Grad-CAM algorithm to select images.
+  
+*  Analyzed model results.
+
+<p align="center">  
+<img src="./Images/ResNet50_10_Epochs.png" width="400">
+</p>
+
+*Above shows the ResNet50 model's Confusion Matrix results. The model performed quite well, correctly classifying 98% of the test data. The model incorrectly classified 40 images from the pneumonia class as COVID-19.*
+
+For all of the models, normal and pneumonia were notably difficult to classify. A possible solution to this problem would be to combine the classifcation result with the patient's reported sympotoms, as pneumonia patients and normal patients will often have different syptoms. The combination of the X-ray and symptoms will help support a better classification result. 
+
+<div style="display:flex; gap:20px; align-items:center; margin-bottom:40px;">
+  <div style="flex:2;">
+    
+<p align="center">  
+<img src="./Images/VGG16_First_Tuberculosis.png" width="400">
+</p>
+
+*The image above shows the Grad-CAM result from a Tuberculosis X-ray. This result is from the VGG16 model that was created and does a good job displaying a heatmap over the X-ray image to indicate areas in the lungs that lead to the model's decision. The model correctly classified this X-ray as Tuberculosis.*
+  </div>
+  
+  <div style="flex:1;">
+For the tuberculosis X-ray:
+  
+Data were obtained from the TB Portals (https://tbportals.niaid.nih.gov), which is an
+open-access TB data resource supported by the National Institute of Allergy and
+Infectious Diseases (NIAID) Office of Cyber Infrastructure and Computational Biology
+(OCICB) in Bethesda, MD. These data were collected and submitted by members of the
+TB Portals Consortium (https://tbportals.niaid.nih.gov/Partners). Investigators and other
+data contributors that originally submitted the data to the TB Portals did not participate
+in the design or analysis of this study.
+
+Rosenthal A, Gabrielian A, Engle E, Hurt DE, Alexandru S, Crudu V, et al. The TB Portals: an OpenAccess, Web-Based Platform for Global Drug-Resistant-Tuberculosis Data Sharing and
+Analysis. J Clin Microbiol. 2017;55(11):3267-82.
+  </div>
+</div>
 
 ## Project 4: Virtual Screening for Protein Docking
 * Creation of user interface for protein docking for non-technical researchers and associates
