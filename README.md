@@ -137,14 +137,16 @@ For all of the models, normal and pneumonia were notably difficult to classify. 
 <img src="./Images/VGG16_First_Tuberculosis.png" width="400">
 </p>
 
-*The image above shows the Grad-CAM result from a Tuberculosis X-ray. This result is from the VGG16 model that was created and does a good job displaying a heatmap over the X-ray image to indicate areas in the lungs that lead to the model's decision. The model correctly classified this X-ray as Tuberculosis.*
+<em>The image above shows the Grad-CAM result from a Tuberculosis X-ray. This result is from the VGG16 model that was created and does a good job displaying a heatmap over the X-ray image to indicate areas in the lungs that lead to the model's decision. The model correctly classified this X-ray as Tuberculosis.</em>
 
   </div>
   
   <div style="flex:1;">
-For the tuberculosis X-ray:
+<p>
+ For the tuberculosis X-ray:
+</p>
 
- 
+<p>
 Data were obtained from the TB Portals (https://tbportals.niaid.nih.gov), which is an
 open-access TB data resource supported by the National Institute of Allergy and
 Infectious Diseases (NIAID) Office of Cyber Infrastructure and Computational Biology
@@ -155,6 +157,7 @@ in the design or analysis of this study.
 
 Rosenthal A, Gabrielian A, Engle E, Hurt DE, Alexandru S, Crudu V, et al. The TB Portals: an OpenAccess, Web-Based Platform for Global Drug-Resistant-Tuberculosis Data Sharing and
 Analysis. J Clin Microbiol. 2017;55(11):3267-82.
+</p>
   </div>
 </div>
 
