@@ -12,13 +12,7 @@
   <div style="max-width:600px;">
     <h2>About Me:</h2>
     <p>
-      I hold a Master's degree in Data Science and a Bachelor's degree in Biology, 
-      and I am currently working in Neuroscience research. With my combined background 
-      in data science and biology, I strive to drive impactful research and contribute 
-      to advancements in healthcare and biotechnology. Data science is transforming 
-      the way we analyze complex biological systems, and I apply my expertise to 
-      extract meaningful insights that lead to real-world solutions. By leveraging data, 
-      I aim to make informed, evidence-based contributions that improve societal health outcomes.
+      I hold a Master’s in Data Science and a Bachelor’s in Biology, and am currently working in neuroscience research. My background allows me to bridge the gap between an analytical foundation and        scientific inquiry,  turning complex data into clear, actionable insights that support meaningful decisions. While I’m especially passionate about contributing to healthcare, biotechnology, and       scientific innovation, I’m equally excited to apply my skills across diverse industries. I bring experience in statistical modeling, machine learning, and data storytelling, with a focus on           evidence-based results. I’m driven by curiosity, problem-solving, and the opportunity to use data to create meaningful advancements, whether in research, business intelligence, or beyond.
     </p>
   </div>
 
@@ -98,13 +92,12 @@
 
 *The two images above display the results of the models, with the top image showing 3 untuned models, LDA, Logistic Regression, and QDA. The bottom images shows the results of the remaining 6 models that were tuned.*
 
-Based on the combined results from the cross-validation metrics and the holdout performance of all nine models, it was determined that Random Forest model was the best model to select for the prediction of blue tarp pixels. This conclusion arises not only from the fact that Random Forest is one of the top-performing models on the holdout data set metrics but also from its similarity in presenting solid results during the cross-validation process. The Random Forest model has a high degree of correctly predicting those places where help is needed. It has a high true positive rate/sensitivity of 0.9626, and I]it also significantly decreases the number of false positives, falsely identified blue tarps, which reduces the waste of resources. 
+Based on the combined results from the cross-validation metrics and the holdout performance of all nine models, it was determined that Random Forest model was the best model to select for the prediction of blue tarp pixels. This conclusion arises not only from the fact that Random Forest is one of the top-performing models on the holdout data set metrics but also from its similarity in presenting solid results during the cross-validation process. The Random Forest model has a high degree of correctly predicting those places where help is needed. It has a high true positive rate/sensitivity of 0.9626, and it also significantly decreases the number of false positives, falsely identified blue tarps, which reduces the waste of resources. 
 
 ## [Project 3: Chest Disease Classification with Explainability](https://arxiv.org/pdf/2505.22609)
 * To what extent can one improve the interpretability of highly accurate, high performing, and generalizable Convolutional Neural Networks (CNNs) for the purposes of identifying chest diseases in X-ray Images? Providing visual explanations for classification decisions can help improve trust and transparency in clinical applications of deep learning models.
   
 *  Utilized TensorFlow to perform Transfer Learning of CNN models with Gradient-weighted Class Activation Mapping (Grad-CAM) explainability feature.
-   We applied Gradient-weighted
 
 *  Researched several CNN models to utilize for transfer learning.
     
